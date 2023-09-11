@@ -1,0 +1,36 @@
+.flex-container {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.flex-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  height: 600px;
+}
+
+.editor-controler {
+  flex: 3;
+}
+
+.buttons-controller {
+  flex: 1;
+  text-align: center;
+}
+
+.log-controller {
+  flex: 1;
+  overflow: auto;
+  white-space: normal;
+  text-overflow: ellipsis;
+  font-size: 10px;
+}
+
+input {
+  margin-top: 10px;
+}

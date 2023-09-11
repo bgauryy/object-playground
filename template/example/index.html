@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/codemirror.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.63.0/mode/javascript/javascript.min.js"></script>
+    <script src="./controller.js"></script>
+    <link href="./style.css" rel="stylesheet"/>
+    <link href="../style.css" rel="stylesheet"/>
+  </head>
+  <body>
+    
+    <a href="/"><button>Back</button></a>
+
+    
+    <div class="flex-container">
+      
+      <div class="flex-item buttons-controller">
+        <button onclick="run()">Run Code</button>
+        <button onclick="clearLog()">Clear Log</button>
+        <input></input>
+      </div>
+      <div class="flex-item editor-controler">
+        <div class="container">
+            <div  id="code"></div>
+        </div>
+      </div>
+      <div class="flex-item log-controller">
+          <h2>console.log</h2>
+          <p id="log"></p>
+      </div>
+  </div>
+  </body>
+</html>

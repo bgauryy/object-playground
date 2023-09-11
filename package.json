@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "serve": "cd dist && python3 -m http.server 8080",
+    "build": "node build/script.js",
+    "dev": "yarn build && yarn serve"
+  }
+}
