@@ -1,6 +1,6 @@
-# Objext-playground
+# Object-overriding-playground
 
-Simple examples for objects overriding.
+Simple examples for objects overriding using monkey patching
 
 ## Run
   - `yarn dev`
